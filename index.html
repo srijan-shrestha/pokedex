@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>My PokeDex</title>
+    <script
+      language="javascript"
+      src="http://code.jquery.com/jquery-1.4.2.min.js"
+    ></script>
+    <script src="./index.js"></script>
+  </head>
+  <body>
+    <section>
+      <header>
+        <span>Pokemon Database</span>
+      </header>
+
+      <div id="pokemonList" class="pokemon-list">
+      </div>
+
+      <div class="flex">
+        <div class="card specs">
+          <header>Specs</header>
+          <div class="">
+            <ul>
+              <li><span>Name:</span> <span id="specs_name"></span></li>
+              <li><span>Abilities:</span> <span id="specs_abilities"></span></li>
+              <li><span>Height:</span> <span id="specs_height"></span></li>
+              <li><span>Base Experience:</span> <span id="specs_BE"></span></li>
+            </ul>
+          </div>
+        </div>
+        <div class="card abilities">
+          <header>Abilities</header>
+          <div class="">
+            <ul>
+              <li><span>Ability Name:</span> <span id="ability_name"></span></li>
+              <li><span>Ability Effect:</span> <span id="ability_effect"></span ></li>
+              <li><span>Short Effect:</span> <span id="short_effect"></span ></li>
+              <li><span>Flavour Text:</span> <span id="flavour_text"></span ></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

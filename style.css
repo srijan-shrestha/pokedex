@@ -1,0 +1,125 @@
+body {
+    padding: 2rem;
+    color: #313131;
+    font-family: "Flexo-Demi",arial,sans-serif;
+}
+
+section {
+    padding: 2rem;
+    border: 2px solid #4dad5b;
+    border-radius: 5px;
+}
+
+header{
+    text-align: center;
+   
+}
+
+header span {
+    padding: 0.5rem 1rem ;
+    border: 1px solid #313131;
+    font-weight: 600;
+}
+
+.pokemon-list {
+    display: flex;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.pokemon-item {
+    padding: 1rem;
+    margin: 1.5rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.pokemon-item:hover {
+    border-radius: 5px;
+    transform: translateY(2px);
+    background-color: #4dad5b;
+    color: #F2F2F2;
+}
+
+figure {
+    background: #F2F2F2;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0.5px;
+    height: 150px;
+    width: 150px;
+}
+
+.img-container img {
+    width: 100%;
+}
+
+.pokemon-name {
+    padding: 1rem ;
+}
+
+.pokemon-name:hover {
+    cursor: pointer;
+}
+
+
+.flex {
+    display: flex;
+    margin: 1rem;
+    flex-wrap: wrap;
+}
+
+.card {
+    padding: 1rem;
+    border-radius: 5px;
+    margin-right:1.5rem;
+    margin-top: 1.5rem;
+}
+
+.card header {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #F2F2F2;
+    width: 230px;
+} 
+
+.card ul {
+    list-style: none;
+    margin: 1rem;
+    padding: 0;
+}
+
+.card ul li {
+    padding: 0.5rem;
+    margin-left: 0;
+}
+
+
+.specs {
+    background-color: #30A7D7;
+}
+
+.abilities {
+    background-color: #fd7d24;
+}
+
+.ability {
+    border: 1px solid #F2F2F2;
+    padding: 3px 6px;
+    color: white;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-left: 0.5rem;
+    font-size: 12px;
+}
+
+.ability:hover {
+    text-decoration: underline;
+}
+
+
+.link {
+    display: inline;
+    margin: 1.5rem;
+    padding: 0.5rem;
+    border: 1px solid #4dad5b;
+}
